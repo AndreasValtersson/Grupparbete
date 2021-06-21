@@ -36,5 +36,14 @@ public class Main {
             default:
                 System.out.println("Not a valid number");
         }
+
     }
+
+
+    public static int addition(int i, int j){
+        return i + j;
+    }
+
+    public static int subtraction(int i, int j){
+        return i - j;
 }
