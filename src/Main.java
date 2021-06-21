@@ -19,20 +19,20 @@ public class Main {
         System.out.println("4. Division");
         System.out.print("Option: ");
         int input = scanner.nextInt();
-        scanner.next();
+        scanner.nextLine();
 
         switch (input){
             case 1:
-                addition(i,j);
+                System.out.println(addition(i,j));
                 break;
             case 2:
-                subtraction(i,j);
+                System.out.println(subtraction(i,j));
                 break;
             case 3:
-                multiplcation(i,j);
+                System.out.println(multiplication(i,j));
                 break;
             case 4:
-                division(i,j);
+                System.out.println(division(i,j));
                 break;
             default:
                 System.out.println("Not a valid number");
