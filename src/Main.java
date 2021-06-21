@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the worlds best calculator!");
@@ -46,4 +47,13 @@ public class Main {
 
     public static int subtraction(int i, int j){
         return i - j;
+    }
+
+    public static int multiplication(int i, int j) {
+        return i*j;
+    }
+
+    public static int division(int i, int j) {
+        return i/j;
+    }
 }
