@@ -29,7 +29,7 @@ public class Main {
                 subtraction(i,j);
                 break;
             case 3:
-                multiplcation(i,j);
+                multiplication(i,j);
                 break;
             case 4:
                 division(i,j);
